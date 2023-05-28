@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn_3d{
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #ef4f4f;
+  color: aliceblue;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  box-shadow: 0 6px 0 #bb1542;
+}
+
+.btn_3d:active{
+  box-shadow: none;
+  transform: translateX(3px);
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+}
+th{
+  padding: 10px;
+  text-align: center;
+}
